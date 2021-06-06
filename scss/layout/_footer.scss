@@ -1,0 +1,88 @@
+.footer{
+    padding-top: 5rem;
+    position: relative;
+    color: #fff;
+
+    &__grid{
+        margin-left: auto;
+        max-width: 80rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+    }
+
+    &__copyright{
+        max-width: 80rem;
+        margin-left: auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 5rem 0;
+    }
+
+    &__list{
+        list-style: none;
+    }
+
+    &__item{
+
+    }
+
+    &__link{
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: #fff;
+        text-transform: capitalize;
+        display: inline-block;
+        padding-bottom: .5rem;
+    }
+
+    &__form{
+        position: relative;
+    }
+
+    &__text{
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+
+    &__input{
+        width: 100%;
+        background-color: transparent;
+        outline: none;
+        border: 1px solid #F8AEAF;
+        padding: 2rem 2.5rem;
+        border-radius: 50px;
+        font-size: 1.6rem;
+        color: #fff;
+    }
+
+    &__submit{
+        display: inline-block;
+        outline: none;
+        text-transform: uppercase;
+        font-size: 1.7rem;
+        background-color: #F8A39D;
+        color: #fff;
+        border: none;
+        padding: 0rem 3rem;
+        border-radius: 50px;
+        position: absolute;
+        right: 5px;
+        top: 10%;
+        height: 80%;
+        cursor: pointer;
+        transition: all .3s;
+
+        &:hover{
+            background-color: #333;
+        }
+        
+    }
+
+    &__after{
+        position: absolute;
+        bottom: 0;
+        right: -5%;
+        width: 110%;
+        z-index: -1;
+    }
+}

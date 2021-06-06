@@ -1,0 +1,38 @@
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: $popin;
+}
+
+.mb-0{
+    margin-bottom: 0 !important;
+}
+
+.mb-1{
+    margin-bottom: 1rem;
+}
+
+.mb-2{
+    margin-bottom: 2rem;
+}
+
+// CSS Variable Color
+
+:root{
+
+--primary-light : #F8A39D;
+
+}

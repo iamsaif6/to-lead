@@ -1,0 +1,43 @@
+.statics{
+
+    padding-bottom: 10rem;
+    position: relative;
+
+    &__wrapper{
+        max-width: 60rem;
+        box-shadow: 0 2rem 3rem rgba(0,0,0,0.144);
+        padding: 6rem 4rem;
+        border-radius: 10px;
+    }
+
+    &__grid{
+        display: flex;
+        align-items: center;
+        &:not(:last-child){
+            margin-bottom: 4rem;
+        }
+    }
+
+    &__count{
+        font-size: 6rem;
+        font-weight: 600;
+        background: linear-gradient(to bottom , #F56E6B , #EA6675);
+        background-clip: text;
+        color: transparent;
+        line-height: 1;
+        flex: 0 0 35%;
+        margin-right: 3rem;
+        text-align: right;
+    }
+
+    &__text{
+        align-self: baseline;
+    }
+
+    &__after{
+        position: absolute;
+        right: 0;
+        top: -80%;
+    }
+
+}

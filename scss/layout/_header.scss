@@ -1,0 +1,43 @@
+.header{
+
+    padding: 20rem 0 6rem 0;
+
+    &__after{
+        position: absolute;
+        top: -5rem;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+    &__textbox{
+        color: #fff;
+        max-width: 70rem;
+    }
+
+    &__heading{
+        font-size: 9rem;
+        font-weight: 300;
+        line-height: 1;
+
+        span{
+            font-weight: 700;
+        }
+    }
+
+    &__subheading{
+        font-weight: 300;
+        font-size: 3rem;
+        margin: 2rem 0;
+    }
+    
+    &__place{
+        font-size: 2.7rem;
+        font-weight: 700;
+        letter-spacing: 3rem;
+        text-align: right;
+        margin-right: 20%;
+        display: block;
+    }
+}

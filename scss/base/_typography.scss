@@ -1,0 +1,42 @@
+.description{
+    font-size: 1.4rem;
+    color: #505050;
+    line-height: 2;
+    font-weight: 300;
+}
+
+.secondary__heading{
+    font-size: 1.4rem;
+    color: #EDAA86;
+    letter-spacing: 6px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+
+    span{
+        font-weight: 600;
+        color: #FA7268;
+    }
+}
+
+.section__title{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #525252;
+    margin-bottom: 1rem;
+}
+
+.section__time{
+    color: #FA7268;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    &--black{
+        color: #000;
+    }
+}
+
+.section__location{
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 300;
+}

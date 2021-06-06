@@ -1,0 +1,41 @@
+.whats{
+
+    padding: 5rem 0 10rem 0;
+    position: relative;
+
+    &__wrapper{
+        max-width: 55rem;
+        margin-left: 15rem;
+    }
+
+    .blog-bg{
+        background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0),rgb(255, 255, 255)) , url(/img/whats-new.png);
+        margin-bottom: 5rem;
+    }
+
+    &__text{
+        margin-left: 2rem;
+    }
+
+    &__single{
+        margin-bottom: 2rem;
+    }
+
+    &__link{
+        text-decoration: none;
+        color: #FA7268;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+
+        span{
+            margin-left: 1.5rem;
+            font-size: 2rem;
+        }
+    }
+
+    &__after{
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}

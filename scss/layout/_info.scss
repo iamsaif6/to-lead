@@ -1,0 +1,37 @@
+.info{
+
+    padding-bottom: 10rem;
+    position: relative;
+
+    &__flex{
+        margin-top: 5rem;
+        display: flex;
+    }
+
+    &__picture{
+        margin-right: 5rem;
+        margin-left: 3rem;
+    }
+
+    &__img{
+
+    }
+
+    &__text{
+
+    }
+
+    &__heading{
+        font-size: 3rem;
+        font-weight: 400;
+        color: #525252;
+    }
+
+    &__after{
+        position: absolute;
+        left: 0;
+        top: 10%;
+    }
+
+
+}

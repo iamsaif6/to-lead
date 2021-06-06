@@ -1,0 +1,49 @@
+.event{
+
+    padding: 10rem 0 10rem 0;
+    position: relative;
+
+    &__grid{
+        display: grid;
+        grid-template-columns:repeat(auto-fit , minmax(25rem ,1fr));
+        grid-gap: 7rem;
+        align-items: end;
+
+        &--bg , .blog-bg{
+            height: 30rem;
+            width: 100%;
+            background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0),rgb(255, 255, 255)) , url(/img/events2.png);
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.144);
+            padding: 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+        }
+    }
+
+    &__picture{
+
+    }
+
+    &__text{
+        
+    }
+
+    &__single{
+        margin-bottom: 2rem;
+    }
+
+
+    &__after{
+        position: absolute;
+        right: 0;
+        top: -40%;
+        z-index: -1;
+    }
+
+
+}
